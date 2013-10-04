@@ -1,0 +1,7 @@
+[
+  {
+    "keys": ["super+a", "super+p", "super+i"],
+    "command": "show_overlay",
+    "args": { "overlay": "command_palette", "text": "Sublime Text API: " }
+  }
+]

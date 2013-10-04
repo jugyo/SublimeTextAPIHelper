@@ -1,0 +1,61 @@
+[
+  {
+    "caption": "Sublime Text API: *",
+    "command": "sublime_text_api"
+  },
+  {
+    "caption": "Sublime Text API: sublime.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime"}
+  },
+  {
+    "caption": "Sublime Text API: sublime_plugin.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime_plugin"}
+  },
+  {
+    "caption": "Sublime Text API: sublime.View.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime.View"}
+  },
+  {
+    "caption": "Sublime Text API: sublime.Selection.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime.Selection"}
+  },
+  {
+    "caption": "Sublime Text API: sublime.Region.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime.Region"}
+  },
+  {
+    "caption": "Sublime Text API: sublime.Window.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime.Window"}
+  },
+  {
+    "caption": "Sublime Text API: sublime.Settings.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime.Settings"}
+  },
+  {
+    "caption": "Sublime Text API: sublime_plugin.EventListener.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime_plugin.EventListener"}
+  },
+  {
+    "caption": "Sublime Text API: sublime_plugin.ApplicationCommand.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime_plugin.ApplicationCommand"}
+  },
+  {
+    "caption": "Sublime Text API: sublime_plugin.WindowCommand.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime_plugin.WindowCommand"}
+  },
+  {
+    "caption": "Sublime Text API: sublime_plugin.TextCommand.*",
+    "command": "sublime_text_api",
+    "args": {"module": "sublime_plugin.TextCommand"}
+  },
+]
