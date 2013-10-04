@@ -1,7 +1,7 @@
 Sublime Text API
 ====
 
-Sublime Text Plugin to show API reference.
+Sublime Text Plugin to show Sublime Text API reference.
 
 ![screencast](http://i.imgur.com/Qevxg72.gif)
 
