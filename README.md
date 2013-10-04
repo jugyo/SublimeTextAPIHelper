@@ -3,6 +3,8 @@ Sublime Text API
 
 Sublime Text Plugin to show API reference.
 
+![screencast](http://i.imgur.com/Qevxg72.gif)
+
 ## Installation
 
 ```
