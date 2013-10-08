@@ -1,9 +1,9 @@
 import sublime, sublime_plugin
-import json
+import json, os
 
-class SublimeTextApiCommand(sublime_plugin.TextCommand):
+class SublimeTextApiHelperCommand(sublime_plugin.TextCommand):
     def run(self, edit, module=None):
-        data = json.loads(sublime.load_resource('Packages/SublimeTextAPI/3.json'))
+        data = json.loads(sublime.load_resource('Packages/%s/3.json' % os.path.basename(os.path.dirname(__file__))))
         functions = []
         for key, value in data.items():
             if module == None or module == key:
@@ -17,12 +17,12 @@ class SublimeTextApiCommand(sublime_plugin.TextCommand):
 
         def on_done(index):
             if index >= 0:
-                self.view.run_command("sublime_text_api_output", {"text": functions[index][1]})
+                self.view.run_command("sublime_text_api_helper_output", {"text": functions[index][1]})
                 for s in self.view.sel():
                     self.view.insert(edit, s.a, function_name)
         self.view.window().show_quick_panel(items, on_done)
 
-class SublimeTextApiOutputCommand(sublime_plugin.TextCommand):
+class SublimeTextApiHelperOutputCommand(sublime_plugin.TextCommand):
     def run(self, edit, text):
         for s in self.view.sel():
             self.view.replace(edit, s, text)

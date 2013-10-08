@@ -1,61 +1,61 @@
 [
   {
-    "caption": "Sublime Text API: *",
-    "command": "sublime_text_api"
+    "caption": "Sublime Text API Helper: *",
+    "command": "sublime_text_api_helper"
   },
   {
-    "caption": "Sublime Text API: sublime.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime"}
   },
   {
-    "caption": "Sublime Text API: sublime_plugin.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime_plugin.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime_plugin"}
   },
   {
-    "caption": "Sublime Text API: sublime.View.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime.View.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime.View"}
   },
   {
-    "caption": "Sublime Text API: sublime.Selection.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime.Selection.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime.Selection"}
   },
   {
-    "caption": "Sublime Text API: sublime.Region.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime.Region.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime.Region"}
   },
   {
-    "caption": "Sublime Text API: sublime.Window.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime.Window.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime.Window"}
   },
   {
-    "caption": "Sublime Text API: sublime.Settings.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime.Settings.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime.Settings"}
   },
   {
-    "caption": "Sublime Text API: sublime_plugin.EventListener.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime_plugin.EventListener.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime_plugin.EventListener"}
   },
   {
-    "caption": "Sublime Text API: sublime_plugin.ApplicationCommand.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime_plugin.ApplicationCommand.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime_plugin.ApplicationCommand"}
   },
   {
-    "caption": "Sublime Text API: sublime_plugin.WindowCommand.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime_plugin.WindowCommand.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime_plugin.WindowCommand"}
   },
   {
-    "caption": "Sublime Text API: sublime_plugin.TextCommand.*",
-    "command": "sublime_text_api",
+    "caption": "Sublime Text API Helper: sublime_plugin.TextCommand.*",
+    "command": "sublime_text_api_helper",
     "args": {"module": "sublime_plugin.TextCommand"}
   },
 ]

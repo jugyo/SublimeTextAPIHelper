@@ -1,4 +1,4 @@
-Sublime Text API
+Sublime Text API Helper
 ====
 
 Sublime Text Plugin to show Sublime Text API reference.
@@ -9,5 +9,5 @@ Sublime Text Plugin to show Sublime Text API reference.
 
 ```
 $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
-$ git clone https://github.com/jugyo/SublimeTextAPI.git SublimeTextAPI
+$ git clone https://github.com/jugyo/SublimeTextAPIHelper.git SublimeTextAPIHelper
 ```
