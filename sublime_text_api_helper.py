@@ -3,7 +3,8 @@ import json, os
 
 class SublimeTextApiHelperCommand(sublime_plugin.TextCommand):
     def run(self, edit, module=None):
-        data = json.loads(sublime.load_resource('Packages/Sublime Text API Helper/3.json'))
+        json_file = sublime.find_resources("SublimeText3API.json")[0]
+        data = json.loads(sublime.load_resource(json_file))
         functions = []
         for key, value in data.items():
             if module == None or module == key:
